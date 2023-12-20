@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
