@@ -6,7 +6,7 @@ body{
 
 .foto {
     background-image: url(../image.png);
-    width: 14%;
+    width: 20%;
     min-height: 37px;
     background-size: cover;
 }
