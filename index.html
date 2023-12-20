@@ -1,12 +1,22 @@
 <!-- Om de body van de html aan te kunnen passen moet je <body class="naam_van_pagina">gebruiken. In CSS schrijf je dan body.naam_van_pagina {.. Op die manier kan je meerdere HTML body gebruiken in 1 CSS file. -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="index">
-    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="foto"></div>
+        <div class="midden">
+            <div class="login">
+                <label for="fname">Email aderess</label>
+                <input type="text" id="fname" name="firstname" placeholder="Email...">
+                <label for="lname">password</label>
+                <input type="text" id="lname" name="lastname" placeholder="password...">
+                </div>
+                <input type="submit" value="Submit">
+            </div>    
+    </body>
+    </html>
