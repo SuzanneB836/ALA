@@ -139,3 +139,64 @@ button {
 font-size: 24px;
  
 }
+
+.logo {
+  background-image: url(../image.png);
+  width: 20%;
+  min-height: 37px;
+  background-size: cover;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  width: 50%;
+  height: 60%;
+  background-color: darkgreen;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 1px;
+}
+
+input[type=text],
+select {
+  margin-top: 1px;
+  width: 40%;
+  padding: 8px;
+  margin: 1px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  height: 50px;
+  margin: 3vw auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
