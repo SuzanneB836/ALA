@@ -39,14 +39,16 @@ body {
   background-color: #45a049;
 }
 
-.foto {
+.logo {
+  width: 236px;
+  height: 50px;
 }
 
 .midden {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .login {
