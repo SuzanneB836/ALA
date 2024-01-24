@@ -3,30 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Contact</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login Form</title>
 </head>
 <body>
-    
-    <div class="logo"></div>
-
-<div class="frame">
-    <div class="contact">
-    <h1> Contact us </h1>
-        <label for="name">Name:</label> <br>
-        <input type="text" id="name" name="name" placeholder="Naam..." required> <br>
-
-        <label for="email">Email:</label> <br>
-        <input type="text" id="email" name="email" placeholder="Email..." required> <br>
-
-        <label for="message">Message:</label> <br>
-        <input type="text" id="bericht" name="bericht" placeholder="Bericht..." required> <br>
-        
-        <input type="submit" value="Submit">
-    
+    <div class="foto"></div>
+    <div class="midden">
+        <div class="login">
+            <label for="fname">Email address</label>
+            <input type="text" id="fname" name="email" placeholder="Email...">
+            <label for="lname">Password</label>
+            <input type="password" id="lname" name="password" placeholder="Password...">
+            <input type="submit" value="Submit" onclick="validateLogin()">
         </div>
-    </form>
-</div>
+    </div>
 
+    <script src="../js/login.js"></script>
 </body>
 </html>
