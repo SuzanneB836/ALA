@@ -7,5 +7,5 @@ function validateLogin() {
         alert("Login successful. Redirect to dashboard or perform further actions here.");
     } else {
         alert("Incorrect email or password. Please try again.");
-    }
+    } 
 }
